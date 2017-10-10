@@ -1,5 +1,5 @@
 
-# Laravel Lifeshop 微信小商店CRM
+# 好商城 Laravel 版 Lifeshop CRM
 
 <p align="center"><img src="docs/static/logo.png?raw=true" title="Laravel Lifeshop" height=100></p>
 
