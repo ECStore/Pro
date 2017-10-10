@@ -30,7 +30,7 @@ Laravel Lifeshop provides a professional and reliable foundation from which to b
 
 1. 安装需要配置域名(VirtualHost), 将网站根目录设置为 **`public/`** 目录, 例如 Apache 的配置(假设站点主目录为 D:\www\):
 
-    ‼️必须安装在 **域名根目录** 下, 不能在某个网站子目录下(比如: `http://localhost/minishop`) 否则会路径出错
+    ‼️必须安装在 **域名根目录** 下, 不能在某个网站子目录下(比如: `http://localhost/lifeshop`) 否则会路径出错
 
         <VirtualHost *:80>
              DocumentRoot "D:/www/lifeshop.dev/public"
@@ -39,7 +39,7 @@ Laravel Lifeshop provides a professional and reliable foundation from which to b
 
     请自行配置好 `Composer` 执行环境, 命令行窗口进入 `D:\www\` 目录执行安装:
 
-        composer create-project lifeshop/lifeshop minishop.dev
+        composer create-project lifeshop/lifeshop lifeshop.dev
     
     即可将 Laravel Lifeshop 安装到 `lifeshop.dev` 目录下, 如果执行时间很长, 可能是你没有配置 Composer 国内镜像, 请在上面的安装命令执行前先执行
 
