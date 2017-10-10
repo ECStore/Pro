@@ -39,7 +39,7 @@ Laravel ECStore provides a professional and reliable foundation from which to bu
 
     请自行配置好 `Composer` 执行环境, 命令行窗口进入 `D:\www\` 目录执行安装:
 
-        composer create-project ecstore/ecstore ecstore.dev
+        composer create-project ecstore/engine ecstore.dev
     
     即可将 Laravel ECStore 安装到 `ecstore.dev` 目录下, 如果执行时间很长, 可能是你没有配置 Composer 国内镜像, 请在上面的安装命令执行前先执行
 
