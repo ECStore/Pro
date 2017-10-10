@@ -1,0 +1,5 @@
+*
+!.gitignore
+!App
+App/*
+!App/readme.md

@@ -1,0 +1,79 @@
+{
+    "name": "lifeshop/lifeshop",
+    "type": "project",
+    "description": "Laravel Lifeshop",
+    "keywords": ["laravel", "lifeshop", "ecommerce", "framework", "opensource"],
+    "homepage": "https://community.shopes.cn",
+    "license": "GPL-3.0+",
+    "require": {
+        "php": ">=7.0",
+        "lifeshop/app": "~1.0"
+    },
+    "require-dev": {
+        "barryvdh/laravel-ide-helper": "^2.4",
+        "filp/whoops": "~2.0",
+        "fzaninotto/faker": "~1.4",
+        "league/commonmark": "^0.15.4",
+        "league/flysystem-aws-s3-v3": "^1.0",
+        "mockery/mockery": "0.9.*",
+        "orchestra/testbench": "^3.5",
+        "phpunit/phpunit": "~6.0",
+        "symfony/css-selector": "3.1.*",
+        "symfony/dom-crawler": "3.1.*"
+    },
+    "config": {
+        "vendor-dir": "./storage/vendor/",
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "optimize-autoloader": true
+    },
+    "scripts": {
+        "post-root-package-install": [
+            "@php -r \"file_exists('.env') || copy('docs/.env.example', '.env');\"",
+            "@php -r \"copy('storage/app/packages/app/composer-stable.json', 'storage/app/packages/app/composer.json');\""
+        ],
+        "post-create-project-cmd": []
+    },
+    "extra": {
+        "merge-plugin": {
+            "include": [
+                "app/*/composer.json",
+                "app/Addon/*/*/composer.json"
+            ],
+            "require": [
+            ],
+            "recurse": true,
+            "replace": false,
+            "merge-dev": true,
+            "merge-extra": true,
+            "merge-scripts": true,
+            "merge-extra-deep": true
+        },
+        "installer-types": ["wordpress-core", "lifeshop-module", "project", "lifeshop-addon","minishop-module"],
+        "installer-paths": {
+            "app/Laravel": ["laravel/laravel"],
+            "public/app/": ["type:wordpress-core"],
+            "app/{$name}/": ["type:lifeshop-module","type:minishop-module"],
+            "app/Addon/{$name}/": ["type:lifeshop-addon"]
+        },
+        "branch-alias": {
+            "dev-master": "2.0-dev"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "repositories": {
+        "local": {
+            "type": "path",
+            "url": "storage/app/packages/*"
+        },
+        "shopes": {
+            "type": "composer",
+            "url": "https://packagist.shopes.cn"
+        },
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    }
+}
