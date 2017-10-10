@@ -1,5 +1,5 @@
 
-# Laravel ECStore
+# Laravel EC Store 微信网店引擎
 
 <p align="center"><img src="docs/static/logo.png?raw=true" title="Laravel Lifeshop" height=100></p>
 
