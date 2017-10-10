@@ -1,20 +1,20 @@
 
-# 好商城 Laravel 版 Lifeshop CRM
+# Lifeshop CRM (好商城 Laravel 版)
 
 <p align="center"><img src="docs/static/logo.png?raw=true" title="Laravel Lifeshop" height=100></p>
 
 ## 概述
 
-Laravel Lifeshop 基于以下开源程序集成:
+Lifeshop CRM 基于以下开源程序集成:
 
-* Laravel 5.5
-* Wordpress 4.7
-* Opencart 3.0
-* WeEngine 1.0
+* Laravel 5.5.*
+* Wordpress 4.7.*
+* 好商城 V5.*
+* 微擎 WeEngine 1.*
 
-Laravel Lifeshop is a free open source ecommerce platform for online merchants. 
+Lifeshop CRM is a free open source ecommerce platform for online merchants. 
 
-Laravel Lifeshop provides a professional and reliable foundation from which to build a successful online store.
+Lifeshop CRM provides a professional and reliable foundation from which to build a successful online store.
 
 ## 环境依赖
 
@@ -41,7 +41,7 @@ Laravel Lifeshop provides a professional and reliable foundation from which to b
 
         composer create-project lifeshop/lifeshop lifeshop.dev
     
-    即可将 Laravel Lifeshop 安装到 `lifeshop.dev` 目录下, 如果执行时间很长, 可能是你没有配置 Composer 国内镜像, 请在上面的安装命令执行前先执行
+    即可将 Lifeshop CRM 安装到 `lifeshop.dev` 目录下, 如果执行时间很长, 可能是你没有配置 Composer 国内镜像, 请在上面的安装命令执行前先执行
 
         composer config -g repo.packagist composer https://packagist.phpcomposer.com
 
@@ -86,7 +86,7 @@ Laravel Lifeshop provides a professional and reliable foundation from which to b
 
 ## Links
 
-- [点这里加入群: 665863675﹝Laravel Lifeshop﹞](https://jq.qq.com/?_wv=1027&k=5qYJy7I)
+- [点这里加入群: 665863675﹝Lifeshop CRM﹞](https://jq.qq.com/?_wv=1027&k=5qYJy7I)
 - [发布页面 Github](https://github.com/lifeshop/lifeshop)
 - [问题反馈 Issues](https://github.com/lifeshop/lifeshop/issues)
 - [文档 Documents](https://github.com/lifeshop/lifeshop/wiki)
