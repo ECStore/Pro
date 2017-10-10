@@ -1,5 +1,5 @@
 
-# Laravel ECStore 微信网店引擎
+# Laravel ECStore
 
 <p align="center"><img src="docs/static/logo.png?raw=true" title="Laravel Lifeshop" height=100></p>
 
@@ -12,9 +12,9 @@ Laravel ECStore 基于以下开源程序集成:
 * 好商城 V5.*
 * 微擎 WeEngine 1.*
 
-Lifeshop CRM is a free open source ecommerce platform for online merchants. 
+Laravel ECStore is a free open source ecommerce platform for online merchants. 
 
-Lifeshop CRM provides a professional and reliable foundation from which to build a successful online store.
+Laravel ECStore provides a professional and reliable foundation from which to build a successful online store.
 
 ## 环境依赖
 
@@ -30,18 +30,18 @@ Lifeshop CRM provides a professional and reliable foundation from which to build
 
 1. 安装需要配置域名(VirtualHost), 将网站根目录设置为 **`public/`** 目录, 例如 Apache 的配置(假设站点主目录为 D:\www\):
 
-    ‼️必须安装在 **域名根目录** 下, 不能在某个网站子目录下(比如: `http://localhost/lifeshop`) 否则会路径出错
+    ‼️必须安装在 **域名根目录** 下, 不能在某个网站子目录下(比如: `http://localhost/ecstore`) 否则会路径出错
 
         <VirtualHost *:80>
-             DocumentRoot "D:/www/lifeshop.dev/public"
-             ServerName lifeshop.dev
+             DocumentRoot "D:/www/ecstore.dev/public"
+             ServerName ecstore.dev
         </VirtualHost>
 
     请自行配置好 `Composer` 执行环境, 命令行窗口进入 `D:\www\` 目录执行安装:
 
-        composer create-project lifeshop/lifeshop lifeshop.dev
+        composer create-project ecstore/ecstore ecstore.dev
     
-    即可将 Lifeshop CRM 安装到 `lifeshop.dev` 目录下, 如果执行时间很长, 可能是你没有配置 Composer 国内镜像, 请在上面的安装命令执行前先执行
+    即可将 Laravel ECStore 安装到 `ecstore.dev` 目录下, 如果执行时间很长, 可能是你没有配置 Composer 国内镜像, 请在上面的安装命令执行前先执行
 
         composer config -g repo.packagist composer https://packagist.phpcomposer.com
 
@@ -49,7 +49,7 @@ Lifeshop CRM provides a professional and reliable foundation from which to build
     
 
 
-2. 等待 Composer 代码下载完毕后, 用浏览器访问网站域名(比如: http://lifeshop.dev/ ),
+2. 等待 Composer 代码下载完毕后, 用浏览器访问网站域名(比如: http://ecstore.dev/ ),
     正常情况下会进入安装向导页面, 填写数据库参数和管理员账号信息(需要先用 phpmyadmin, navicat 等工具创建好数据库)完成安装
     
 3. 后台访问网址: `http://您的域名/admin` 后台用户名与密码在安装向导页面设置
@@ -87,10 +87,10 @@ Lifeshop CRM provides a professional and reliable foundation from which to build
 
 ## Links
 
-- [点这里加入群: 665863675﹝Lifeshop CRM﹞](https://jq.qq.com/?_wv=1027&k=5qYJy7I)
-- [发布页面 Github](https://github.com/lifeshop/lifeshop)
-- [问题反馈 Issues](https://github.com/lifeshop/lifeshop/issues)
-- [文档 Documents](https://github.com/lifeshop/lifeshop/wiki)
-- [提交PR (Pull Request)](https://github.com/lifeshop/lifeshop/pulls)
+- [点这里加入群: 665863675﹝Laravel ECStore﹞](https://jq.qq.com/?_wv=1027&k=5qYJy7I)
+- [发布页面 Github](https://ecstore.github.io/engine)
+- [问题反馈 Issues](https://github.com/ecstore/ecstore/issues)
+- [文档 Documents](https://github.com/ecstore/ecstore/wiki)
+- [提交PR (Pull Request)](https://github.com/ecstore/ecstore/pulls)
 - [开发者社区 Developers Community](https://community.shopes.cn)
 
