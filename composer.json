@@ -49,12 +49,11 @@
             "merge-scripts": true,
             "merge-extra-deep": true
         },
-        "installer-types": ["wordpress-core", "lifeshop-module", "project", "lifeshop-addon","minishop-module"],
+        "installer-types": ["wordpress-core", "lifeshop-module", "project", "minishop-module"],
         "installer-paths": {
-            "app/Laravel": ["laravel/laravel"],
+            "app/laravel": ["laravel/laravel"],
             "public/app/": ["type:wordpress-core"],
-            "app/{$name}/": ["type:lifeshop-module","type:minishop-module"],
-            "app/Addon/{$name}/": ["type:lifeshop-addon"]
+            "app/{$name}/": ["type:lifeshop-module","type:minishop-module"]
         },
         "branch-alias": {
             "dev-master": "2.0-dev"
