@@ -88,7 +88,7 @@ Laravel ECStore provides a professional and reliable foundation from which to bu
 ## Links
 
 - [点这里加入群: 665863675﹝Laravel ECStore﹞](https://jq.qq.com/?_wv=1027&k=5qYJy7I)
-- [发布页面 Github](https://ecstore.github.io/engine)
+- [发布页面 Github](https://ecstore.github.io/engine/)
 - [问题反馈 Issues](https://github.com/ecstore/ecstore/issues)
 - [文档 Documents](https://github.com/ecstore/ecstore/wiki)
 - [提交PR (Pull Request)](https://github.com/ecstore/ecstore/pulls)
