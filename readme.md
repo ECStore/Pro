@@ -91,7 +91,7 @@ Laravel ECStore Pro provides a professional and reliable foundation from which t
 
 ## License
 
-[GNU General Public License version 3 (GPLv3)](https://github.com/opencart/opencart/blob/master/license.txt)
+[GNU General Public License version 3 (GPLv3)](docs/license.txt?raw=true)
 
 ## Links
 

@@ -18,3 +18,5 @@ docs/.phpstorm.meta.php
 /public/*
 !/public/*.*
 /public/.DS_Store
+/_config.yml
+
