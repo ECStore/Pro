@@ -7,7 +7,7 @@
     "license": "GPL-3.0+",
     "require": {
         "php": ">=7.0",
-        "lifeshop/app": "~1.0"
+        "ecstore/framework": "~1.0"
     },
     "require-dev": {
         "barryvdh/laravel-ide-helper": "^2.4",
@@ -30,7 +30,7 @@
     "scripts": {
         "post-root-package-install": [
             "@php -r \"file_exists('.env') || copy('docs/.env.example', '.env');\"",
-            "@php -r \"copy('storage/app/packages/app/composer-stable.json', 'storage/app/packages/app/composer.json');\""
+            "@php -r \"copy('storage/app/packages/framework/composer-stable.json', 'storage/app/packages/framework/composer.json');\""
         ],
         "post-create-project-cmd": []
     },
