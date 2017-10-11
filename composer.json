@@ -56,7 +56,7 @@
         },
         "installer-types": ["wordpress-core", "ecstore-module", "project"],
         "installer-paths": {
-            "app/laravel": ["laravel/laravel"],
+            "app/framework/laravel": ["laravel/laravel"],
             "public/app/": ["type:wordpress-core"],
             "app/{$name}/": ["type:ecstore-module"]
         },
