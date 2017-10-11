@@ -11,7 +11,7 @@
 
     ECStore Pro provides a professional and reliable foundation from which to build a successful online store.
 
-- ### ECStore Pro 基于以下开源程序集成:
+- ECStore Pro 基于以下开源程序集成:
 
     * Laravel 5.5
     * Wordpress 4.7
