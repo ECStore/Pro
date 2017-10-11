@@ -97,7 +97,7 @@
 ## Links
 
 - [点这里加入开发群: 665863675﹝ECStore Pro﹞](https://jq.qq.com/?_wv=1027&k=5qYJy7I)
-- [安装指南 Github](https://ecstore.github.io/Pro/)
+- [安装指南](https://ecstore.github.io/Pro/)
 - [问题反馈 Issues](https://github.com/ECStore/Pro/issues)
 - [开发文档 Documents](https://github.com/ECStore/Pro/wiki)
 - [提交PR (Pull Request)](https://github.com/ECStore/Pro/pulls)
