@@ -3,8 +3,6 @@
 
 <p align="center"><img src="docs/static/logo.png?raw=true" title="ECStore Pro" height=100></p>
 
-## 概述
-
 - ### ECStore Pro 致力于创造更加易于扩展开发, 以开源社区驱动的移动支付电商框架
 
     ECStore Pro is a free open source ecommerce platform for online merchants. 
