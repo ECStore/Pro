@@ -23,6 +23,8 @@
         "ecstore/catalog": "^1.0",
         "ecstore/home": "^1.0",
         "ecstore/bootstrap": "^1.0"
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 
 }
