@@ -72,7 +72,7 @@ Laravel ECStore Pro provides a professional and reliable foundation from which t
 
 - `app/` 目录下模块文件在用 composer 进行更新时会被删除并重新下载, 
 
-    如果需要修改或者扩展模块里面的类, 可以将类文件按照类的命名空间对应的路径复制到 `fixture/` 目录下修改, 程序会优先加载
+    如果需要修改或者扩展模块里面的类, 可以将类文件按照类的**命名空间对应的路径**复制到 `fixture/` 目录下修改, 程序会优先加载
     
     例如要扩展 `App\Bootstrap` 类, 可以把 `app/bootstrap/src/Boostrap.php` 复制到 `fixture/App/Boostrap.php`, 然后修改代码
     
