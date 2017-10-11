@@ -30,7 +30,10 @@
     "scripts": {
         "post-root-package-install": [
             "@php -r \"file_exists('.env') || copy('docs/.env.example', '.env');\"",
-            "@php -r \"copy('storage/app/packages/framework/composer-stable.json', 'storage/app/packages/framework/composer.json');\""
+            "@php -r \"file_exists('storage/app/packages/framework/composer-stable.json') || copy('storage/app/packages/framework/composer-stable.json', 'storage/app/packages/framework/composer.json');\""
+        ],
+        "post-autoload-dump": [
+            "@php artisan package:discover"
         ],
         "post-create-project-cmd": []
     },
