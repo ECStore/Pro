@@ -100,6 +100,5 @@
 - [安装指南](https://ecstore.github.io/Pro/)
 - [问题反馈 Issues](https://github.com/ECStore/Pro/issues)
 - [开发文档 Documents](https://github.com/ECStore/Pro/wiki)
-- [提交PR (Pull Request)](https://github.com/ECStore/Pro/pulls)
 - [开发者社区 club.shopes.cn](https://club.shopes.cn)
 
