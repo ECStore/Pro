@@ -1,7 +1,7 @@
 {
     "name": "ecstore/pro",
     "type": "project",
-    "description": "ECStore Pro: Laravel 微信网店微服务框架",
+    "description": "ECStore Pro - Laravel 微信网店微服务框架",
     "keywords": ["laravel", "ecstore-pro", "ecommerce", "framework", "opensource"],
     "homepage": "https://club.shopes.cn",
     "license": "GPL-3.0+",
@@ -40,7 +40,7 @@
                 "app/*/composer.json",
                 "public/plugins/*/composer.json",
                 "public/themes/*/composer.json",
-                "public/addon/*/*/composer.json"
+                "public/addons/*/*/composer.json"
             ],
             "require": [
             ],
