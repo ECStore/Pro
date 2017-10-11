@@ -2,7 +2,7 @@
 # ECStore Pro: 微信网店微服务框架
 
 
-- ### ECStore Pro 致力于创造更加易于扩展开发, 以开源社区驱动的移动支付电商框架
+- ECStore Pro 致力于创造更加易于扩展开发, 以开源社区驱动的移动支付电商框架
 
     ECStore Pro is a free open source ecommerce platform for online merchants. 
     ECStore Pro provides a professional and reliable foundation from which to build a successful online store.
