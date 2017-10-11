@@ -73,7 +73,7 @@ Laravel ECStore Pro provides a professional and reliable foundation from which t
 
     如果需要修改或者扩展模块里面的类, 可以将类文件按照类的﹝**命名空间对应的路径** ﹞复制到 `fixture/` 目录下修改, 程序会优先加载
     
-    例如要扩展 `App\Bootstrap` 类, 可以把 `app/bootstrap/src/Boostrap.php` 复制到 `fixture/App/Boostrap.php`, 然后修改代码
+    例如要扩展 `App\Bootstrap` 类, 可以把 `app/bootstrap/src/Bootstrap.php` 复制到 `fixture/App/Bootstrap.php`, 然后修改代码
     
 - 静态文件(如 `.js`, `.css`, `.png` 等)以及模板文件(`.twig`, `.blade.php` 等), 请修改 `public/` 目录里的文件, 更新模块时不会被强制覆盖
 
