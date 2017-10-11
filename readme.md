@@ -30,7 +30,7 @@ Laravel ECStore Pro provides a professional and reliable foundation from which t
 ## 安装
 
 
-1. 安装需要配置域名(VirtualHost), 将网站根目录设置为 **`public/`** 目录, 例如 Apache 的配置(假设站点主目录为 D:\www\):
+1. 安装需要配置域名(VirtualHost), 将网站根目录设置为 **`public/`** 目录, 例如 Apache 的配置(假设站点主目录为 `D:\www\` ):
 
     ‼️必须安装在 **域名根目录** 下, 不能在某个网站子目录下(比如: `http://localhost/ecstore`) 否则会路径出错
 
