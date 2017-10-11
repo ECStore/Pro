@@ -102,5 +102,5 @@
 - [问题反馈 Issues](https://github.com/ECStore/Pro/issues)
 - [文档 Documents](https://github.com/ECStore/Pro/wiki)
 - [提交PR (Pull Request)](https://github.com/ECStore/Pro/pulls)
-- [开发者社区 Developers Community](https://club.shopes.cn)
+- [开发者社区 club.shopes.cn](https://club.shopes.cn)
 
