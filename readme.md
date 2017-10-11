@@ -1,5 +1,5 @@
 
-# ECStore Pro: 微信网店微服务框架
+# ECStore Pro: Laravel 微信网店微服务框架
 
 <p align="center"><img src="docs/static/logo.png?raw=true" title="ECStore Pro" height=100></p>
 
