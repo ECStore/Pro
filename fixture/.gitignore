@@ -1,8 +1,8 @@
 *
 !.gitignore
 !App
-!custom
+!lib
 App/*
-custom/*
-!custom/readme.md
+lib/*
+!lib/readme.md
 !App/readme.md

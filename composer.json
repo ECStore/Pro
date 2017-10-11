@@ -1,9 +1,9 @@
 {
-    "name": "lifeshop/lifeshop",
+    "name": "ecstore/pro",
     "type": "project",
-    "description": "Laravel Lifeshop",
-    "keywords": ["laravel", "lifeshop", "ecommerce", "framework", "opensource"],
-    "homepage": "https://community.shopes.cn",
+    "description": "Laravel ECStore Pro",
+    "keywords": ["laravel", "ecstore-pro", "ecommerce", "framework", "opensource"],
+    "homepage": "https://club.shopes.cn",
     "license": "GPL-3.0+",
     "require": {
         "php": ">=7.0",
@@ -38,7 +38,9 @@
         "merge-plugin": {
             "include": [
                 "app/*/composer.json",
-                "app/Addon/*/*/composer.json"
+                "public/plugins/*/composer.json",
+                "public/themes/*/composer.json",
+                "public/addon/*/*/composer.json"
             ],
             "require": [
             ],
@@ -49,11 +51,11 @@
             "merge-scripts": true,
             "merge-extra-deep": true
         },
-        "installer-types": ["wordpress-core", "lifeshop-module", "project", "minishop-module"],
+        "installer-types": ["wordpress-core", "ecstore-module", "project"],
         "installer-paths": {
             "app/laravel": ["laravel/laravel"],
             "public/app/": ["type:wordpress-core"],
-            "app/{$name}/": ["type:lifeshop-module","type:minishop-module"]
+            "app/{$name}/": ["type:ecstore-module"]
         },
         "branch-alias": {
             "dev-master": "2.0-dev"
