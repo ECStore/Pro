@@ -1,7 +1,7 @@
 {
     "name": "ecstore/pro",
     "type": "project",
-    "description": "Laravel ECStore Pro",
+    "description": "ECStore Pro: Laravel 微信网店微服务框架",
     "keywords": ["laravel", "ecstore-pro", "ecommerce", "framework", "opensource"],
     "homepage": "https://club.shopes.cn",
     "license": "GPL-3.0+",
