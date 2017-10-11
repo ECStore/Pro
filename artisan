@@ -16,9 +16,7 @@ define('LARAVEL_START', microtime(true));
 */
 require __DIR__ . '/storage/vendor/autoload.php';
 
-if(!class_exists(App\Bootstrap\Bootstrap::class)) return;
-
-$app = App\Bootstrap\Bootstrap::application();
+$app = App\Bootstrap::application();
 
 /*
 |--------------------------------------------------------------------------
