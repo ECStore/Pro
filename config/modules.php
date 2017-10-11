@@ -23,8 +23,8 @@ return [
     */
 
     'stubs' => [
-        'enabled' => false,
-        'path' => storage_path() . '/vendor/nwidart/laravel-modules/src/Commands/stubs',
+        'enabled' => true,
+        'path' => storage_path() . '/app/modules/stubs',
         'files' => [
             'start' => 'start.php',
             'routes' => 'Http/routes.php',
@@ -91,29 +91,29 @@ return [
         | Se the generate key to false to not generate that folder
         */
         'generator' => [
-            'config' => ['path' => 'Config', 'generate' => true],
-            'command' => ['path' => 'Console', 'generate' => true],
-            'migration' => ['path' => 'Database/Migrations', 'generate' => true],
-            'seeder' => ['path' => 'Database/Seeders', 'generate' => true],
-            'factory' => ['path' => 'Database/factories', 'generate' => true],
-            'model' => ['path' => 'Entities', 'generate' => true],
-            'controller' => ['path' => 'Http/Controllers', 'generate' => true],
-            'filter' => ['path' => 'Http/Middleware', 'generate' => true],
-            'request' => ['path' => 'Http/Requests', 'generate' => true],
-            'provider' => ['path' => 'Providers', 'generate' => true],
-            'assets' => ['path' => 'Resources/assets', 'generate' => true],
-            'lang' => ['path' => 'Resources/lang', 'generate' => true],
-            'views' => ['path' => 'Resources/views', 'generate' => true],
-            'test' => ['path' => 'Tests', 'generate' => true],
-            'repository' => ['path' => 'Repositories', 'generate' => false],
-            'event' => ['path' => 'Events', 'generate' => false],
-            'listener' => ['path' => 'Listeners', 'generate' => false],
-            'policies' => ['path' => 'Policies', 'generate' => false],
-            'rules' => ['path' => 'Rules', 'generate' => false],
-            'jobs' => ['path' => 'Jobs', 'generate' => false],
-            'emails' => ['path' => 'Emails', 'generate' => false],
-            'notifications' => ['path' => 'Notifications', 'generate' => false],
-            'resource' => ['path' => 'Transformers', 'generate' => false],
+            'config' => ['path' => 'config', 'generate' => true],
+            'command' => ['path' => 'src/Console', 'generate' => true],
+            'migration' => ['path' => 'src/Database/Migrations', 'generate' => true],
+            'seeder' => ['path' => 'src/Database/Seeders', 'generate' => true],
+            'factory' => ['path' => 'src/Database/factories', 'generate' => true],
+            'model' => ['path' => 'src/Entities', 'generate' => true],
+            'controller' => ['path' => 'src/Http/Controllers', 'generate' => true],
+            'filter' => ['path' => 'src/Http/Middleware', 'generate' => true],
+            'request' => ['path' => 'src/Http/Requests', 'generate' => true],
+            'provider' => ['path' => 'src/Providers', 'generate' => true],
+            'assets' => ['path' => 'resources/assets', 'generate' => true],
+            'lang' => ['path' => 'resources/lang', 'generate' => true],
+            'views' => ['path' => 'resources/views', 'generate' => true],
+            'test' => ['path' => 'src/Tests', 'generate' => true],
+            'repository' => ['path' => 'src/Repositories', 'generate' => false],
+            'event' => ['path' => 'src/Events', 'generate' => false],
+            'listener' => ['path' => 'src/Listeners', 'generate' => false],
+            'policies' => ['path' => 'src/Policies', 'generate' => false],
+            'rules' => ['path' => 'src/Rules', 'generate' => false],
+            'jobs' => ['path' => 'src/Jobs', 'generate' => false],
+            'emails' => ['path' => 'src/Emails', 'generate' => false],
+            'notifications' => ['path' => 'src/Notifications', 'generate' => false],
+            'resource' => ['path' => 'src/Transformers', 'generate' => false],
         ],
     ],
     /*
@@ -127,10 +127,9 @@ return [
     */
 
     'scan' => [
-        'enabled' => true,
+        'enabled' => false,
         'paths' => [
-            storage_path('vendor/*/*'),
-            app_path('Addon/*/*'),
+            storage_path('storage/vendor/*/*'),
         ],
     ],
     /*
@@ -143,10 +142,10 @@ return [
     */
 
     'composer' => [
-        'vendor' => 'minishop',
+        'vendor' => 'ECStore',
         'author' => [
-            'name' => 'Minishop Developers Community',
-            'email' => 'team@shopes.cn',
+            'name' => 'ECStore Pro Team',
+            'email' => 'club@shopes.cn',
         ],
     ],
     /*
@@ -159,7 +158,7 @@ return [
     */
     'cache' => [
         'enabled' => false,
-        'key' => 'laravel-modules',
+        'key' => 'ecstore-modules',
         'lifetime' => 60,
     ],
     /*

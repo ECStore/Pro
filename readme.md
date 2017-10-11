@@ -1,20 +1,22 @@
 
-# Laravel ECStore 微信网店+小程序引擎
+# Laravel ECStore Pro: 微信网店微服务框架
 
-<p align="center"><img src="docs/static/logo.png?raw=true" title="Laravel Lifeshop" height=100></p>
+<p align="center"><img src="docs/static/logo.png?raw=true" title="Laravel ECStore Pro" height=100></p>
 
 ## 概述
 
-Laravel ECStore 基于以下开源程序集成:
+Laravel ECStore Pro 基于以下开源程序集成:
 
-* Laravel 5.5.*
-* Wordpress 4.7.*
-* 好商城 V5.*
-* 微擎 WeEngine 1.*
+* Laravel 5.5
+* Wordpress 4.7
+* 好商城 V5
+* 微擎 WeEngine
 
-Laravel ECStore is a free open source ecommerce platform for online merchants. 
+Laravel ECStore Pro 致力于创造更加易于扩展开发, 以开源社区驱动的移动支付电商框架
 
-Laravel ECStore provides a professional and reliable foundation from which to build a successful online store.
+Laravel ECStore Pro is a free open source ecommerce platform for online merchants. 
+
+Laravel ECStore Pro provides a professional and reliable foundation from which to build a successful online store.
 
 ## 环境依赖
 
@@ -39,9 +41,9 @@ Laravel ECStore provides a professional and reliable foundation from which to bu
 
     请自行配置好 `Composer` 执行环境, 命令行窗口进入 `D:\www\` 目录执行安装:
 
-        composer create-project ecstore/engine ecstore.dev
+        composer create-project ecstore/pro ecstore.dev
     
-    即可将 Laravel ECStore 安装到 `ecstore.dev` 目录下, 如果执行时间很长, 可能是你没有配置 Composer 国内镜像, 请在上面的安装命令执行前先执行
+    即可将 Laravel ECStore Pro 安装到 `ecstore.dev` 目录下, 如果执行时间很长, 可能是你没有配置 Composer 国内镜像, 请在上面的安装命令执行前先执行
 
         composer config -g repo.packagist composer https://packagist.phpcomposer.com
 
@@ -72,7 +74,7 @@ Laravel ECStore provides a professional and reliable foundation from which to bu
 
     如果需要修改或者扩展模块里面的类, 可以将类文件按照类的命名空间对应的路径复制到 `fixture/` 目录下修改, 程序会优先加载
     
-    例如要扩展 `App\Bootstrap\Bootstrap` 类, 可以把 `app/Bootstrap/Boostrap.php` 复制到 `fixture/App/Bootstrap/Boostrap.php`, 然后修改代码
+    例如要扩展 `App\Bootstrap` 类, 可以把 `app/bootstrap/src/Boostrap.php` 复制到 `fixture/App/Boostrap.php`, 然后修改代码
     
 - 静态文件(如 `.js`, `.css`, `.png` 等)以及模板文件(`.twig`, `.blade.php` 等), 请修改 `public/` 目录里的文件, 更新模块时不会被强制覆盖
 
@@ -87,10 +89,10 @@ Laravel ECStore provides a professional and reliable foundation from which to bu
 
 ## Links
 
-- [点这里加入群: 665863675﹝Laravel ECStore﹞](https://jq.qq.com/?_wv=1027&k=5qYJy7I)
-- [发布页面 Github](https://ecstore.github.io/engine/)
-- [问题反馈 Issues](https://github.com/ecstore/ecstore/issues)
-- [文档 Documents](https://github.com/ecstore/ecstore/wiki)
-- [提交PR (Pull Request)](https://github.com/ecstore/ecstore/pulls)
-- [开发者社区 Developers Community](https://community.shopes.cn)
+- [点这里加入社区群: 665863675﹝Laravel ECStore Pro﹞](https://jq.qq.com/?_wv=1027&k=5qYJy7I)
+- [发布页面 Github](https://ecstore.github.io/pro/)
+- [问题反馈 Issues](https://github.com/ECStore/Pro/issues)
+- [文档 Documents](https://github.com/ECStore/Pro/wiki)
+- [提交PR (Pull Request)](https://github.com/ECStore/Pro/pulls)
+- [开发者社区 Developers Community](https://club.shopes.cn)
 
