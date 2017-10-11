@@ -40,6 +40,7 @@
     "extra": {
         "merge-plugin": {
             "include": [
+                "app/*/composer.json",
                 "public/plugins/*/composer.json",
                 "public/themes/*/composer.json",
                 "public/addons/*/*/composer.json"
