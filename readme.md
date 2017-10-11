@@ -55,9 +55,7 @@
 2. 等待 Composer 代码下载完毕后, 用浏览器访问网站域名(比如: http://ecstore.dev/ ),
     正常情况下会进入安装向导页面, 填写数据库参数和管理员账号信息(需要先用 phpmyadmin, navicat 等工具创建好数据库)完成安装
 
-3. Apache 服务器需要开启 mod_rewrite 伪静态扩展, 并保证扩展已经正确配置好
-
-    Nginx 伪静态规则配置请参考 Laravel Nginx 伪静态设置    
+3. Apache 服务器需要开启 mod_rewrite 伪静态扩展, Nginx 伪静态规则配置请参考 Laravel Nginx 伪静态设置    
 
 4. 后台访问网址: `http://您的域名/admin` 后台用户名与密码在安装向导页面设置
 
