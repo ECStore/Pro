@@ -5,18 +5,21 @@
 
 ## 概述
 
-ECStore Pro 基于以下开源程序集成:
+- ### ECStore Pro 致力于创造更加易于扩展开发, 以开源社区驱动的移动支付电商框架
 
-* Laravel 5.5
-* Wordpress 4.7
-* 好商城 V5
-* 微擎 WeEngine
+    ECStore Pro is a free open source ecommerce platform for online merchants. 
 
-ECStore Pro 致力于创造更加易于扩展开发, 以开源社区驱动的移动支付电商框架
+    ECStore Pro provides a professional and reliable foundation from which to build a successful online store.
 
-ECStore Pro is a free open source ecommerce platform for online merchants. 
+- ### ECStore Pro 基于以下开源程序集成:
 
-ECStore Pro provides a professional and reliable foundation from which to build a successful online store.
+    * Laravel 5.5
+    * Wordpress 4.7
+    * 好商城 V5
+    * 微擎 WeEngine
+
+
+
 
 ## 环境依赖
 
