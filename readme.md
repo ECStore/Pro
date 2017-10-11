@@ -82,6 +82,13 @@ Laravel ECStore Pro provides a professional and reliable foundation from which t
     
         php artisan vendor:publish --tag=public --force 
         
+- 更新和模块安装功能需要保证以下文件和目录及其子目录可写
+
+    - app/
+    - public/
+    - storage/
+    - composer.json
+    - composer.lock
 
 ## License
 
