@@ -1,7 +1,7 @@
 <?php
 
 use App\Bootstrap;
-use Home\Start;
+use App\Home\Start;
 
 require __DIR__ . "/../storage/vendor/autoload.php";
 $app = Bootstrap::application();
